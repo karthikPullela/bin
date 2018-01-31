@@ -10,7 +10,9 @@ Here's a script that'll help you create a custom-made PS1. You can have a fun PS
 
 2. [Source](https://stackoverflow.com/questions/45761508/whats-the-difference-between-script-or-source-script-bash-script) the shell script in your .profile file (or .bashrc or .bash_profile)
 
-Boom! Just like that, you have a neat and fancy PS1. You can check out what mine looks like: ![my PS1](https://imgur.com/a/NnIJd "My PS1")
+Boom! Just like that, you have a neat and fancy PS1. You can check out what mine looks like:
+
+[[https://github.com/arisweedler/arisweedler-bin/blob/master/img/myPS1.png|alt=My-PS1]]
  
 I tried to make the script easy to use, *the only stuff that you'll need to modify is near the bottom*, under the sections labeled "Set the colors" and "Assemble". You can customize your PS1 by changing the calls to STYLE.
  
@@ -39,7 +41,9 @@ I have the cowsay application stuck in my bin, and I placed `alias pwdd='. cowsa
 6. Now that we've taken a random line from our list of animals, we'll just invoke `cowsay -f $ANIMAL $TEXT`, where text is our pwd, to put a nice lil skin over the regular pwd function. Neat! Fun fact, I called this with $PWD instead of \`pwd\` because \`pwd\` in a shell script will return the pwd of the script, NOT the user's pwd. If I had aliased this, then \`pwd\` would have worked.
 
 You can see what it looks like on my
-[twitter](https://twitter.com/Adsweed/status/954638087660777475).
+[twitter](https://twitter.com/Adsweed/status/954638087660777475). Or here:
+
+[[https://github.com/arisweedler/arisweedler-bin/blob/master/img/cowsay-pwd.png|alt=cowsay-pwd]]
 
 ## mt-lnxsrv unmount-lnxsrv
 
