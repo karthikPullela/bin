@@ -11,8 +11,7 @@ Here's a script that'll help you create a custom-made PS1. You can have a fun PS
 2. [Source](https://stackoverflow.com/questions/45761508/whats-the-difference-between-script-or-source-script-bash-script) the shell script in your .profile file (or .bashrc or .bash_profile)
 
 Boom! Just like that, you have a neat and fancy PS1. You can check out what mine looks like:
-
-[[https://github.com/arisweedler/arisweedler-bin/blob/master/img/myPS1.png|alt=My-PS1]]
+![my PS1](img/myPS1.png)
  
 I tried to make the script easy to use, *the only stuff that you'll need to modify is near the bottom*, under the sections labeled "Set the colors" and "Assemble". You can customize your PS1 by changing the calls to STYLE.
  
@@ -42,12 +41,13 @@ I have the cowsay application stuck in my bin, and I placed `alias pwdd='. cowsa
 
 You can see what it looks like on my
 [twitter](https://twitter.com/Adsweed/status/954638087660777475). Or here:
-
-[[https://github.com/arisweedler/arisweedler-bin/blob/master/img/cowsay-pwd.png|alt=cowsay-pwd]]
+![cowsay pwd](img/cowsay-pwd.png)
 
 ## mt-lnxsrv unmount-lnxsrv
 
 Tab completion was my motivation for not making these aliases. Also, it's noice that I'm able to check to see if my mountpoint is mounted before mounting something, this means that if I ever wanna mount more than 1 remote disks at once, I can just call my mt-XXX script and it has the ability to unmount the other disk, if I don't want that. Also, TAB COMPLETION. Who the heck types out full wor.
 
 ds.
+
+![mount unmount](img/mount-unmount.gif)
 
